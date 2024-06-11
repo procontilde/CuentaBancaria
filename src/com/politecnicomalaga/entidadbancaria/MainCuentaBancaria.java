@@ -47,6 +47,7 @@ public class MainCuentaBancaria {
     }
 
     public static void menuEmpezar(Cuenta miCuenta) {
+        
         char option;
 
         do {
@@ -174,6 +175,7 @@ public class MainCuentaBancaria {
         BufferedReader bR = null;
 
         try {
+            
             bR = new BufferedReader(new FileReader(json));
             return new Gson().fromJson(bR, Cuenta.class);
 
