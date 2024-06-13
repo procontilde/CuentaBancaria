@@ -32,7 +32,7 @@ public class MainCuentaBancaria {
 
                 case 'b':
 
-                    System.out.println("Saliendo del programa...");
+                    System.out.println("Saliendo");
                     break;
 
                 default:
